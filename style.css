@@ -1,0 +1,298 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav {
+    width: 100%;
+    height: 60px;
+    background-image: url(https://wallpaperaccess.com/full/396561.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: sticky;
+    top: 0px;
+}
+#history h1{
+    color: black;
+    text-shadow: 4px 4px 5px black;
+}
+nav img{
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 2px 3px 5px white
+}
+nav ul{
+    display: flex;
+   
+}
+h1{
+    margin-left: 25px;
+    margin-top: 18px;
+    color: rgb(255, 253, 253);
+    text-shadow: 4px 3px 6px white;
+    font-weight: 800;
+    font-size: larger;
+}
+.sec{
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+nav ul li a{
+    color: rgb(250, 235, 235);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 3px 6px white;
+    font-weight: 400;
+}
+nav ul li a:hover{
+    color: blue;
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    width: 100%;
+}
+#home:before{
+    content: "-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------";
+    background-image: url("https://wallpaperbat.com/img/1512261-fortune-india-business-news-strategy-finance-and-corporate-insight.jpg");
+    height: 700px;
+    width: 100%;
+    
+  
+   
+}
+.main{
+    position: absolute;
+    padding: 70px;
+    letter-spacing: 10px;
+    top: 200px;
+    left: 800px;
+    text-align: center;
+    
+}
+#intro img{
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    box-shadow: 6px 8px 10px black;
+}
+#intro{
+    display: flex;
+}
+#secintro{
+    /* background-color:rgba(128, 128, 128, 0.71); */
+    background-image: url(https://wallpapercave.com/wp/wp4947058.png);
+    height: 350px;
+    
+}
+#div{
+    margin-left: 20px;
+}
+#div h1{
+    text-align: center;
+    text-decoration: underline;
+}
+#div p{
+    text-align: justify;
+    letter-spacing: 2px;
+}
+#history h1{
+    text-align: center;
+    text-decoration: underline;
+}
+#his{
+    background-image: url(https://th.bing.com/th/id/R.79c505cbe60e6993cfe8b314934fd7b8?rik=4HYlQuyTRkfevw&riu=http%3a%2f%2fil5.picdn.net%2fshutterstock%2fvideos%2f21522739%2fthumb%2f1.jpg&ehk=avSrpdRGPnVIGYr6XPuvi%2fz%2bdy5PNijOpaJd0Lm6gwg%3d&risl=&pid=ImgRaw&r=0);
+    height: 400px;
+    margin: 0px;
+}
+#history p{
+    text-align: justify;
+    letter-spacing: 2px;
+}
+#row{
+    /* width: 100%;
+    height: 600px; */
+    display: flex;
+    flex-direction: row;
+    
+}
+h6{
+    text-align: center;
+    font-size: larger;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+.col img{
+    width: 100%;
+    height: 150px;
+   border: 1px solid white;
+   border-radius: 10px;
+}
+.col p{
+    text-align: justify;
+}
+.col h1{
+    
+    font-size: large;
+    text-decoration: underline;
+}
+.col{
+    border: 2px solid rgb(59, 58, 58);
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 60px;
+    height: 350px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 4px 4px 5px black;
+}
+.col:hover{
+    box-shadow: none;
+}
+.kk{
+    border: 2px solid rgb(59, 58, 58);
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 420px;
+    height: 350px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 4px 4px 5px black;
+}
+.kk img{
+    width: 100%;
+    height: 150px;
+   border: 1px solid white;
+   border-radius: 10px;
+}
+.kk p{
+    text-align: justify;
+}
+.kk h1{
+    text-decoration: underline;
+    
+    font-size: large;
+}
+#class{
+    background-image: url(https://files.123freevectors.com/wp-content/original/121376-abstract-light-grey-texture-background-design.jpg?q=100);
+}
+.gallery{
+    margin-left: 20px;
+    display: flex;
+
+    flex-direction: row;
+    background-color: aquamarine;
+}
+.col2{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 370px;
+    margin: 0px;
+    position: absolute;
+}
+.gallery img{
+    border: 1px solid rgb(9, 9, 9);
+    border-radius: 5px;
+}
+#gallery h4{
+    text-align: center;
+    margin-top: 20px;
+    font-size: larger;
+}
+.img1{
+    position: absolute;
+    height: 400px;
+    width: 280px;
+    
+
+}
+.img2{
+    position: absolute;
+    height:280px;
+    width: 250px;
+    left: 200px;
+    top: 90px;
+
+}
+.img3{
+    position: absolute;
+    height: 300px;
+    width: 280px;
+    left: 400px;
+
+}
+.img4{
+    position: absolute;
+    height: 300px;
+    width: 280px;
+    top: 90px;
+    left: 670px;
+
+}
+.img5{
+    position: absolute;
+    height: 300px;
+    width: 280px;
+    left: 900px;
+
+}
+#secawards{
+    margin-top: 400px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    background-image: url(https://www.wallpaperflare.com/static/642/352/44/grey-square-fifty-shades-of-grey-pattern-wallpaper.jpg);
+}
+#secawards img{
+
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+}
+#secawards h5{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-size: larger;
+    text-decoration: underline;
+    display:flex;
+    flex-direction: column;
+}
+#awards{
+    margin-top: 20px;
+    text-align: justify;
+    font-weight: 400;
+}
+#row3{
+    display: flex;
+    width:  100%;
+    height: 300px;
+    float: left;
+    justify-content: space-between;
+    margin: 0px;
+    background-color: rgba(128, 128, 128, 0.782);
+}
+.col3{
+    width: 100%;
+    height: 300px;
+
+}
+.col3 iframe{
+
+    width: 300px;
+    height: 200px;
+}
+#contact{
+    background-color: rgba(74, 70, 70, 0.859)96, 93, 93);
+}
+.col3 h1{
+    color: black;
+}
