@@ -1,11 +1,12 @@
 *{
     margin: 0px;
     padding: 0px;
+    
 }
 nav {
     width: 100%;
     height: 60px;
-    background-image: url(https://wallpaperaccess.com/full/396561.jpg);
+  background-color:rgba(250, 235, 215, 0.403);
     display: flex;
     align-items: center;
     justify-content: left;
@@ -13,38 +14,40 @@ nav {
     top: 0px;
 }
 #history h1{
-    color: black;
-    text-shadow: 4px 4px 5px black;
+    color: rgb(223, 216, 216);
+    
 }
-nav img{
-    margin-left: 20px;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    box-shadow: 2px 3px 5px white
-}
+
 nav ul{
     display: flex;
    
 }
-h1{
-    margin-left: 25px;
+ nav h1{
+    margin-left: 500px;
     margin-top: 18px;
-    color: rgb(255, 253, 253);
-    text-shadow: 4px 3px 6px white;
-    font-weight: 800;
-    font-size: larger;
+    color:black;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: x-large;
 }
 .sec{
     margin-top: 20px;
     margin-left: 20px;
     
 }
+#sec1{
+   
+    margin-right: 20px;
+}
+#na2{
+    margin-left: 350px;
+    
+}
 nav ul li a{
-    color: rgb(250, 235, 235);
+    color: black;
     text-decoration: none;
-    color: rgb(255, 255, 255);
-    text-shadow: 4px 3px 6px white;
+    
+    
     font-weight: 400;
 }
 nav ul li a:hover{
@@ -53,15 +56,18 @@ nav ul li a:hover{
 
 #home{
     display: flex;
-    flex-direction: column;
-    height: 700px;
+   flex-direction: column;
+    height: 800px;
     width: 100%;
+    margin: 0px;
 }
 #home:before{
-    content: "-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------";
+    content: "";
     background-image: url("https://wallpaperbat.com/img/1512261-fortune-india-business-news-strategy-finance-and-corporate-insight.jpg");
-    height: 700px;
-    width: 100%;
+   
+
+    height: 800px;
+    width: 1900px;
     
   
    
@@ -77,84 +83,67 @@ nav ul li a:hover{
 }
 #intro img{
     margin-top: 20px;
-    margin-left: 20px;
-    border-radius: 10px;
-    box-shadow: 6px 8px 10px black;
+    margin-left: 90px;
+    margin-right: 20px;
+   border-radius: 10px;
+    box-shadow: 6px 4px  30px black;
 }
 #intro{
+    margin: 0px;
     display: flex;
+    /* margin: 20px; */
+   
+    
+    
+    height: 370px;
 }
 #secintro{
-    /* background-color:rgba(128, 128, 128, 0.71); */
     background-image: url(https://wallpapercave.com/wp/wp4947058.png);
-    height: 350px;
-    
+  background-blend-mode: color-burn;
 }
+
 #div{
     margin-left: 20px;
 }
 #div h1{
     text-align: center;
     text-decoration: underline;
+    color: whitesmoke;
 }
-#div p{
+#div h6{
+    font-size: large;
+    text-decoration: none;
     text-align: justify;
+    letter-spacing: 2px;
+    color: whitesmoke;
+    margin: 20px;
     letter-spacing: 2px;
 }
 #history h1{
     text-align: center;
-    text-decoration: underline;
+   
+    color:gray;
 }
 #his{
-    background-image: url(https://th.bing.com/th/id/R.79c505cbe60e6993cfe8b314934fd7b8?rik=4HYlQuyTRkfevw&riu=http%3a%2f%2fil5.picdn.net%2fshutterstock%2fvideos%2f21522739%2fthumb%2f1.jpg&ehk=avSrpdRGPnVIGYr6XPuvi%2fz%2bdy5PNijOpaJd0Lm6gwg%3d&risl=&pid=ImgRaw&r=0);
+   
     height: 400px;
-    margin: 0px;
+    margin: 20px;
 }
 #history p{
     text-align: justify;
     letter-spacing: 2px;
+    margin: 30px;
 }
-#row{
-    /* width: 100%;
-    height: 600px; */
-    display: flex;
-    flex-direction: row;
-    
-}
+
 h6{
     text-align: center;
     font-size: larger;
     margin-top: 20px;
     text-decoration: underline;
 }
-.col img{
-    width: 100%;
-    height: 150px;
-   border: 1px solid white;
-   border-radius: 10px;
-}
-.col p{
-    text-align: justify;
-}
-.col h1{
-    
-    font-size: large;
-    text-decoration: underline;
-}
-.col{
-    border: 2px solid rgb(59, 58, 58);
-    border-radius: 10px;
-    margin-top: 30px;
-    margin-left: 60px;
-    height: 350px;
-    width: 300px;
-    display: flex;
-    flex-direction: column;
-    box-shadow: 4px 4px 5px black;
-}
-.col:hover{
-    box-shadow: none;
-}
+
+
+
 .kk{
     border: 2px solid rgb(59, 58, 58);
     border-radius: 10px;
@@ -180,82 +169,65 @@ h6{
     
     font-size: large;
 }
-#class{
-    background-image: url(https://files.123freevectors.com/wp-content/original/121376-abstract-light-grey-texture-background-design.jpg?q=100);
-}
-.gallery{
-    margin-left: 20px;
-    display: flex;
 
-    flex-direction: row;
-    background-color: aquamarine;
-}
-.col2{
-    display: flex;
-    flex-direction: row;
-    width: 300px;
-    height: 370px;
-    margin: 0px;
-    position: absolute;
-}
-.gallery img{
-    border: 1px solid rgb(9, 9, 9);
-    border-radius: 5px;
-}
-#gallery h4{
+
+
+
+
+#gallery {
     text-align: center;
-    margin-top: 20px;
-    font-size: larger;
+    margin-bottom: 40px;
+    height: 100px;
 }
-.img1{
-    position: absolute;
+
+#gallery h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 20px;
+}
+
+.col2 {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gallery img {
+    display: block;
+    width: 100%;
     height: 400px;
-    width: 280px;
-    
-
+    transition: transform 0.3s ease;
 }
-.img2{
-    position: absolute;
-    height:280px;
-    width: 250px;
-    left: 200px;
-    top: 90px;
 
+.gallery img:hover {
+    transform: scale(1.05);
 }
-.img3{
-    position: absolute;
-    height: 300px;
-    width: 280px;
-    left: 400px;
 
-}
-.img4{
-    position: absolute;
-    height: 300px;
-    width: 280px;
-    top: 90px;
-    left: 670px;
 
-}
-.img5{
-    position: absolute;
-    height: 300px;
-    width: 280px;
-    left: 900px;
 
-}
+
 #secawards{
     margin-top: 400px;
     width: 100%;
-    height: 500px;
+    height: 400px;
     display: flex;
     background-image: url(https://www.wallpaperflare.com/static/642/352/44/grey-square-fifty-shades-of-grey-pattern-wallpaper.jpg);
+    background-color: rgba(255,255,255,0.9);
+    
 }
 #secawards img{
 
     width: 200px;
     height: 250px;
     border-radius: 10px;
+   
 }
 #secawards h5{
     text-align: center;
@@ -270,6 +242,7 @@ h6{
     margin-top: 20px;
     text-align: justify;
     font-weight: 400;
+    margin: 30px;
 }
 #row3{
     display: flex;
@@ -291,8 +264,130 @@ h6{
     height: 200px;
 }
 #contact{
-    background-color: rgba(74, 70, 70, 0.859)96, 93, 93);
+    background-color: rgba(74, 70, 70, 0.859)96, 93, 93;
 }
 .col3 h1{
     color: black;
 }
+
+#cr3{
+    margin-left: 800px;
+}
+
+
+
+
+
+
+#class {
+   background-color:gainsboro;
+    padding: 90px; /* Added padding */
+    
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap; /* Allow flex items to wrap */
+    justify-content: center; /* Center items horizontally */
+    gap: 20px; /* Added gap between columns */
+}
+
+.col {
+    flex: 1 1 300px; /* Flex properties for individual columns */
+    
+    border-radius: 10px;
+    margin-top: 30px;
+    margin: 20px;
+    height: 380px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.col img {
+    width: 100%;
+    height: 150px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.col p {
+    text-align: justify;
+}
+
+.col h5 {
+    text-align: center;
+}
+
+.col:hover {
+    box-shadow: none;
+}
+
+/* Base styles */
+
+/* Your existing CSS styles here */
+
+/* Media queries for smaller screens */
+@media screen and (max-width: 768px) {
+    *{
+        padding: 2px;
+    }
+    nav {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    nav h1 {
+        margin-left: 0; /* Adjust as needed */
+        margin-top: 10px; /* Adjust as needed */
+        text-align: center;
+    }
+    
+    nav ul {
+        margin-left: 0; /* Adjust as needed */
+    }
+    
+    #na2 {
+        margin-left: 0; /* Adjust as needed */
+    }
+    
+    .main {
+         /* Adjust as needed */
+        text-align: center;
+        top: 250px; /* Adjust as needed */
+        left: 0; /* Adjust as needed */
+    }
+    
+    #intro {
+        
+        height: auto; /* Adjust as needed */
+        
+    }
+    #div h6{
+        
+    }
+    
+    #intro img {
+        width: 0px; /* Adjust as needed */
+        height: 0px; /* Adjust as needed */
+    }
+    #class{
+        margin-top: 800px;
+    }
+    #secawards{
+        margin-top: 1400px;
+        text-align: justify;
+    }
+    #contact{
+        margin-top: 1000px; 
+    }
+}
+
+/* Media queries for larger screens */
+@media screen and (min-width: 1200px) {
+    /* Add styles for larger screens here */
+}
+
+/* Add more media queries as needed for different screen sizes */
